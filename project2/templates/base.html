@@ -1,0 +1,47 @@
+
+{% load static %}
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> {% block page_title %}week days{% endblock %} </title>
+    <link rel="stylesheet" href="{% static   'style.css'  %}">
+    
+
+
+
+
+    {% block header_refrences %}
+        
+    {% endblock  %}
+        
+</head>
+
+<body>
+
+    <header>
+        <nav><a href="{% url   'days_list'  %}">روزهای هفته</a></nav>
+    </header>
+
+    <div style="border: 1px solid red;">
+        {% block content %}
+
+        <p>week day project</p>
+        {% endblock content %}
+
+    </div>
+
+</body>
+
+{% block footer_refrences %}
+        
+{% endblock  %}
+
+
+<script src="{% static   'slider.js'  %}"></script>
+
+</html>

@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+
+
+
+
+
+{% block page_title %}
+days description
+{% endblock page_title %}
+
+
+
+
+
+{% block content %}
+
+<h1>my name is ADN</h1>
+
+<h1>day is {{day}} and description is {{days_data}}</h1>
+
+
+
+
+{% if day == 'friday' %}
+<h1>friday is holiday</h1>
+
+{% endif %}
+
+
+
+
+
+
+{% endblock content %}

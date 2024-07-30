@@ -1,0 +1,43 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: "Roboto Condensed", sans-serif;
+    background-color: rgb(29, 29, 29);
+}
+
+
+
+
+
+header a{
+    text-align: center;
+    color: skyblue;
+    font-size:50px;
+    text-decoration: none;
+    margin-left: 43.5%;
+
+}
+
+
+header a:hover{
+    background-color: skyblue;
+    color: #fff;
+}
+
+
+
+
+div h1{
+    color: #fff;
+    text-align: center;
+}

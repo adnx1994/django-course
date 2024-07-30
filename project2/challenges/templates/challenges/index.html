@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+
+
+
+
+{% block header_refrences %}
+
+<link rel="stylesheet" href="{% static 'challenges/challenges.css' %}">
+    
+{% endblock  %}
+    
+
+
+{% block page_title %}
+days_list
+{% endblock %}
+
+
+
+
+
+
+{% block content %}
+
+<ul>
+
+    {% for day in days_list %}
+
+    <li><a href="{% url 'days-of-week'  day  %}">{{day}}</a></li>
+
+    {% endfor %}
+
+</ul>
+
+{% endblock content %}
+
+
+
+
+
+{% block footer_refrences %}
+
+<script src="{% static 'challenges/challenges.js' %}"></script>
+    
+{% endblock  %}
