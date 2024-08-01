@@ -1,0 +1,1 @@
+Django training course exercises.
