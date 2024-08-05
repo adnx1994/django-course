@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block header_refrence %}
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script   src="{% static 'chart/goldi.js' %}"></script>
+    <link rel="stylesheet" href="{% static 'chart/chart.css' %}">
+    <link rel="stylesheet" href="{% static 'index.css' %}">
+{% endblock %}
+
+{% block title %}
+    XAUUSD Chart
+{% endblock %}
+
+{% block content %}
+    <h1>XAUUSD Price Chart</h1>
+    <div id="chart"  class="nemoodar"></div>
+    <div id="fig-data" style="display: none;">{{ fig_json|safe }}</div>
+{% endblock %}

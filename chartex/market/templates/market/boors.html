@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+
+
+
+ {% block header_refrence %}
+ <link rel="stylesheet" href="{% static 'market/chart.css' %}">
+ <link rel="stylesheet" href="{% static 'index.css' %}">
+ {% endblock  %}
+     
+    
+    {% block title %}
+    Boors Chart
+    {% endblock  %}
+        
+
+
+
+
+{% block content %}
+<h1>BOORS Price Chart</h1>
+<pre id="jsonData" style="display:none;">{{ data_json|safe }}</pre>
+<div class="chart">
+    <canvas id="boorsChart"></canvas>
+</div>
+
+{% endblock  %}
+    
+
+
+
+{% block footer_refrence %}
+<script src="{% static 'market/boors.js' %}"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns"></script>
+{% endblock  %}
+    
+
+

@@ -1,0 +1,108 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title>
+    {% block title %}
+
+    {% endblock %}
+</title>
+
+
+    {% block header_refrence %}
+
+    {% endblock %}
+
+
+
+</head>
+
+<body>
+
+
+
+
+    <header>
+
+        <div class="logo">
+                <a href="{% url 'main' %}"><img src="{% static 'Screenshot 2024-03-02 055834.jpg' %}" alt="logo" title="ADN"></a>
+        </div>
+
+
+        <div class="nav">
+            <ul>
+                
+                <li><a href="{% url 'boors' %}" title="ورود به تحلیل بورس ایران"><i class="fa fa-exchange" ></i> بورس ایران</a></li>
+                <li><a href="{% url 'btc' %}"><i class="fa fa-btc"></i> رمزارزها</a></li>
+                <li><a href="{% url 'gold' %}"><i class="fa fa-rocket"></i> XAUUSD</a></li>
+                <li><a href="{% url 'tala' %}"><i class="fa fa-rocket"></i> صندوق طلا</a></li>
+                <li><a href="{% url 'ahrom' %}"><i class="fa fa-rocket"></i> صندوق اهرم</a></li>
+                <li><a href="#"><i class="fa fa-sign-in"></i>درباره ما</a></li>
+            </ul>
+        </div>
+
+
+
+        <div class="sabt">
+
+            <form action="#">
+
+                <input type="text" placeholder="نام کاربری" required title="نام کاربری را وارد کنید">
+                <input type="email" placeholder="ایمیل" required title=" ایمیل را وارد کنید"><br>
+                <input type="password" placeholder="رمز عبور" required title="رمز عبور را وارد نمایید">
+                <button><a href="#" title="ورود به حساب کاربری">ورود</a></button>
+                <button><a href="#" title="ثبتنام">عضویت</a></button>
+
+
+
+            </form>
+
+
+
+
+        </div>
+
+
+
+        <div class="nam">
+            <p> <a href="{% url 'main' %}"  style="text-decoration: none;">شرکت ادونت تکنولوژی</a></p>
+        </div>
+
+
+    </header>
+
+
+
+
+
+
+
+
+    {% block content %}
+
+    {% endblock %}
+
+
+
+    <footer>
+
+
+        <div class="copy-right"></div>
+        
+        <p>تمامی محتویات و مالکیت معنوی و حقوقی متعلق به شرکت داده پردازان ادونچر تکنولوژی است هرگونه کپی برداری پیگرد قانونی دارد.</p>
+        
+        </footer>
+
+</body>
+
+{% block footer_refrence %}
+
+{% endblock %}
+
+</html>
