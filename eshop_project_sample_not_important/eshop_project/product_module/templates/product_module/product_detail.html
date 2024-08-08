@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+
+{% block title %}
+{{product.title}}
+{% endblock %}
+
+
+
+
+
+
+
+{% block content %}
+
+<h1> عنوان گوشی {{product.title}}</h1>
+<h2> قیمت گوشی {{product.price}}</h2>
+<p> توضیحات گوشی{{product.short_description}}</p>
+
+{% endblock %}
