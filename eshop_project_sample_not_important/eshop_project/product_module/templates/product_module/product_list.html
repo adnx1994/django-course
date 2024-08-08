@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+
+
+
+{% block title %}
+product list
+{% endblock %}
+
+
+
+
+{% block content %}
+
+<ul>
+
+    {% for product in products %}
+
+
+
+
+    <li><a href="{{product.get_absolute_url}}" style="text-decoration: none  ; color:black; ">{{product.title}} / {{product.price}}</a></li>
+
+
+
+    {% endfor %}
+
+</ul>
+
+
+
+
+<hr>
+
+<p> total_number_of_products :{{total_number_of_products}}</p>
+<p> average_rating : {{average_rating.rating__avg}}</p>
+{% endblock %}
