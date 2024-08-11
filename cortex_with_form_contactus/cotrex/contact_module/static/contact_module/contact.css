@@ -1,0 +1,38 @@
+
+
+.nazar{
+    text-align: center;
+    margin-top: .5%;
+    margin-bottom: .5%;
+    background-color: blue;
+}
+
+
+
+
+.dokmeh_nazar{
+    padding: 1% 2%;
+    font-size: 1.1vw;
+    color: aliceblue;
+    background-color: orange;
+    border-radius: 10px ;
+    cursor: pointer;
+}
+
+
+.dokmeh_nazar:hover{
+    background-color: aqua;
+}
+
+
+
+.nazar_user{
+    padding-right: 20%;
+    padding-bottom: 3%;
+    margin: 0.5%;
+    border-radius: 10px;
+    font-size: 1vw;
+    background-color: #fff;
+}
+
+
