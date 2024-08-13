@@ -1,0 +1,33 @@
+
+
+body h1{
+    text-align: center;
+    color: blue;
+}
+
+#chart{
+
+    width: 1000px;
+    height: 500px;
+    margin-left: 300px;
+    border: 2px solid gray;
+    border-radius: 20px;
+
+
+}
+
+
+div .nemoodar{
+
+    width: 1000px;
+    height: 500px;
+    margin-left: 300px;
+    border: 2px solid gray;
+    border-radius: 20px;
+
+
+}
+
+
+
+

@@ -1,0 +1,457 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+div .nemoodar{
+
+    width: 1000px;
+    height: 500px;
+    margin-left: 300px;
+    border: 2px solid gray;
+    border-radius: 20px;
+
+
+}
+
+
+
+
+
+
+@media only screen and (min-width: 1000px )  {
+
+
+
+header{
+width: 100%;
+background-color: orange;
+height: 100%;
+
+}
+
+
+
+.logo{
+    float: left;
+width: 10%;
+
+}
+
+
+
+
+.logo img{
+
+    width: 100%;
+    height: 10vw;
+    border: 2px solid black;
+    border-radius: 100%;
+    border: 0;
+
+
+}
+
+
+
+
+
+
+header .sabt{
+    margin-left: 20%;
+    width: 100%;
+    height: 15%;
+}
+
+
+
+
+header .sabt button{
+    padding: 0.5% 2%;
+    border: 0;
+    border-radius: 20px;
+    background-color: aquamarine;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+.sabt button a{
+    color: black;
+    font-size: 1.1vw;
+}
+
+
+.sabt button a{
+    text-decoration: none;
+}
+
+
+
+.sabt a:visited{
+    text-decoration: inherit;
+}
+
+
+.sabt button:hover{
+    background-color: yellowgreen;
+}
+
+
+
+
+
+
+
+
+
+.sabt input{
+padding-right: 3%;
+padding-top: 0.75%;
+padding-bottom: 0.75%;
+border-radius: 20px;
+border: 0.5px solid gainsboro;
+margin-top: 0.2%;
+}
+
+
+
+
+
+.sabt-input{
+    padding-right: 3%;
+    padding-top: 0.75%;
+    padding-bottom: 0.75%;
+    border-radius: 20px;
+    border: 0.5px solid gainsboro;
+    margin-top: 0.2%;
+    }
+    
+
+
+
+
+
+
+
+
+header .nav{
+    text-align: right;
+    font-size: 0.7vw;
+    margin-left: 50%;
+    border: 2px solid firebrick;
+    border-radius: 33px;
+    padding-right: 1%;
+    background-color: #444;
+    border: 0;
+    position: sticky;
+    top: 0;
+
+   
+    
+
+}
+
+
+
+
+
+.nav ul{
+    list-style-type: none;
+    padding: 1%;
+
+
+}
+
+
+
+
+.nav ul li{
+
+    display: inline;
+    padding: 3% 4.5%;
+    
+
+    
+
+}
+
+
+
+
+.nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.5s;
+    cursor: pointer;
+
+}
+
+
+
+
+.nav ul li a:hover{
+    color: goldenrod;
+}
+
+
+
+
+header::after
+,header::before{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+
+
+
+header .nam{
+width: 20%;
+height: 10%;
+margin-left: 75%;
+border: 2px solid gray;
+text-align: center;
+margin-bottom: 3%;
+background-color:#24CBA4;
+border-radius: 100%;
+border: 0;
+
+
+
+}
+
+
+
+header .nam p{
+
+    font-size: 2vw;color: #fff;
+    display: inline;
+}
+
+
+
+/* --------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------- */
+
+
+main{
+    text-align: center;
+    background-color: rgb(3, 0, 190);
+    width: 100%;
+    height: 100%;
+    font-size: 1vw;
+    border-top: 3px solid black;
+}
+
+
+
+
+main .cont{
+
+    font-size: 1.05vw;
+    padding-top: 7%;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 7%;
+    color: aliceblue;
+
+}
+
+
+
+main i{
+
+    color: linen;
+}
+
+
+.btn{
+    margin: 4%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2vw;
+    border: 0;
+    padding: 1% 4%;
+    border-radius: 30px;
+    transition: color 0.5s;
+    cursor: pointer;
+    margin-bottom: 8%;
+}
+
+
+
+.btn a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+a, a:visited {
+    color: inherit;
+}
+
+
+
+
+
+
+.btn:hover{
+    background-color:hotpink ;
+}
+
+
+
+
+.lime{
+    background-color: lime;
+    color: white;
+    padding: 1% 4%;
+    border-radius: 30px;
+}
+
+
+
+
+
+
+
+.white{
+    background-color: white;
+    color: black;
+    padding: 1% 4%;
+    border-radius: 30px;
+}
+
+
+
+
+
+
+
+.blue{
+    background-color: blue;
+    color: white;
+    
+    padding: 1% 4%;
+    border-radius: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+/* --------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------- */
+
+footer{
+    text-align: right;
+    background-color: darkslategrey;
+    color: azure;
+    direction: rtl;
+    font-size: 1.4vw;
+    width: 100%;
+    height: 100%;
+    border-top:  3px solid white;
+    
+
+}
+
+
+
+
+footer p{
+
+    padding: 3%;
+
+
+    
+}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 2000.000009px )  {
+body{
+    background-color: red;
+}
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 3000.000009px )  {
+    body{
+        background-color: blue;
+    }
+    }
+
+
+
+
+
+
+    
+@media only screen and (min-width: 4000.000009px )  {
+    body{
+        background-color: gray;
+    }
+    }

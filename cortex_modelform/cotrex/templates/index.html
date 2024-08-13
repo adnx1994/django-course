@@ -1,0 +1,122 @@
+{% extends 'base.html' %}
+
+
+
+{% load static %}
+
+
+
+
+
+{% block header_refrence %}
+<link rel="stylesheet" href="{% static 'index.css' %}">
+<link rel="stylesheet" href="{% static 'font_awesome/css/font-awesome.min.css' %}">
+{% endblock header_refrence %}
+
+
+<title>
+
+    {% block title %}
+    ADN-marketmind
+    {% endblock %}
+
+</title>
+
+{% block content %}
+
+
+
+
+<!-- 
+
+
+<div id="plotly-chart"></div>
+
+{% if fig_json %}
+<script>
+    var fig = {{ fig_json| safe }};
+    Plotly.react('plotly-chart', fig.data, fig.layout);
+</script>
+{% endif %}
+
+
+
+<div id="chart"  class="nemoodar"></div>
+<div id="fig-data" style="display: none;">{{ fig_json|safe }}</div>
+
+
+
+
+ -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<main>
+
+    <div class="cont">
+
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum soluta laborum iure, inventore porro quo
+        eligendi dicta quaerat quam maxime obcaecati nostrum repudiandae illum corrupti ipsum est at voluptas fugiat
+        commodi, labore id consequatur dignissimos amet. Nam, asperiores, tempora sint in placeat ad, cum facilis
+        voluptatibus minus dolor maxime molestias!
+    </div>
+
+
+
+
+
+
+    <i class="fa fa-dollar"></i>
+
+    <button class="btn  lime"><a href="https:/tsetmc.com" target="_blank">TSETMC</a></button>
+
+
+
+
+
+
+
+    <i class="fa fa-dollar"></i>
+
+    <button class="btn white"><a href="https:/COINMARKETCAP.com" target="_blank">COINMARKETCAP</a></button>
+
+
+
+
+
+
+    <i class="fa fa-dollar"></i>
+
+    <button class="btn blue"><a href="https:/KITCO.com" target="_blank">KITCO</a></button>
+
+
+    <i class="fa fa-dollar"></i>
+
+
+</main>
+
+
+
+
+
+{% endblock %}
+
+
+
+
+{% block footer_refrences %}
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+{% endblock %}
