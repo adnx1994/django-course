@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+
+
+{% block header_refrence %}
+
+<link rel="stylesheet" href="{% static 'index.css' %}">
+<link rel="stylesheet" href="{% static 'contact_module/contact.css' %}">
+{% endblock %}
+
+
+
+{% block title %}
+فرم تماس با ما
+{% endblock %}
+
+
+
+
+
+{% block content %}
+
+
+<form method="post" class="nazar">
+    {% csrf_token %}
+
+
+
+    {{contact_form.username}}
+    {{contact_form.email}}
+    <br>
+    {{contact_form.subject}}
+    <br>
+    {{contact_form.comment}}
+    <br>
+
+    <button type="submit" class="dokmeh_nazar">ارسال</button>
+
+
+
+
+</form>
+
+
+
+{% endblock %}
